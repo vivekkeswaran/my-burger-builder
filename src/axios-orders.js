@@ -1,7 +1,8 @@
 import axios from 'axios';
+import {BASE_URL} from './constants/constant';
 
 const instance = axios.create({
-    baseURL: 'https://my-burger-builder.com/'
+    baseURL: BASE_URL
 });
 
 export default instance;
