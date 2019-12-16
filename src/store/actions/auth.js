@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {SIGNIN_URL, SIGNUP_URL} from '../../constants/constant'
+import {SIGNIN_URL, SIGNUP_URL} from '../../shared/constant'
 
 import * as actionTypes from './actionTypes';
 
